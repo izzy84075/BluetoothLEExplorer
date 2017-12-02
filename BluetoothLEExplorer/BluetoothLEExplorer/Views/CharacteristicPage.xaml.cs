@@ -41,9 +41,9 @@ namespace BluetoothLEExplorer.Views
         {
             if (ViewModel.WriteType == ViewModels.CharacteristicPageViewModel.WriteTypes.Hex)
             {
-                int buf;
+                //int buf;
                 if ((WriteValue.Text != string.Empty) &&
-                    (int.TryParse(WriteValue.Text, System.Globalization.NumberStyles.HexNumber, null, out buf) == false))
+                    (System.Text.RegularExpressions.Regex.IsMatch(WriteValue.Text, @"\A\b[0-9a-fA-F]+\b\Z") == false))
                 {
                     WriteValue.Background = new SolidColorBrush(Windows.UI.Colors.Red);
                 }

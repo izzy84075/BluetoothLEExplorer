@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GattServicesLibrary", "..\GattServicesLibrary\GattServicesLibrary\GattServicesLibrary.csproj", "{644F40AD-EABB-4570-B9B7-E3F8DDAA80F3}"
 EndProject
@@ -76,6 +76,7 @@ Global
 		{BE79FC52-6041-4913-B0D4-66C100944904}.Release|x86.ActiveCfg = Release|x86
 		{BE79FC52-6041-4913-B0D4-66C100944904}.Release|x86.Build.0 = Release|x86
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Debug|ARM.ActiveCfg = Debug|ARM
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Debug|ARM.Build.0 = Debug|ARM
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -86,6 +87,8 @@ Global
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Debug|x86.Build.0 = Debug|x86
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Debug|x86.Deploy.0 = Debug|x86
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Release|Any CPU.ActiveCfg = Release|x86
+		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Release|Any CPU.Build.0 = Release|x86
+		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Release|Any CPU.Deploy.0 = Release|x86
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Release|ARM.ActiveCfg = Release|ARM
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Release|ARM.Build.0 = Release|ARM
 		{AD1CBE3C-A68A-4E02-8001-E02B815560EE}.Release|ARM.Deploy.0 = Release|ARM
@@ -121,5 +124,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BE79FC52-6041-4913-B0D4-66C100944904} = {92EE95F6-40B6-4E5A-97C9-E4234D17C022}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {696922F7-4C87-4A06-9384-98B3665F2F4E}
 	EndGlobalSection
 EndGlobal
